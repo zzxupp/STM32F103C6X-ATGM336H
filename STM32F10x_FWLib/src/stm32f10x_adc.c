@@ -76,15 +76,6 @@
 #define CR2_DMA_Set                 ((uint32_t)0x00000100)
 #define CR2_DMA_Reset               ((uint32_t)0xFFFFFEFF)
 
-/* ADC RSTCAL mask */
-#define CR2_RSTCAL_Set              ((uint32_t)0x00000008)
-
-/* ADC CAL mask */
-#define CR2_CAL_Set                 ((uint32_t)0x00000004)
-
-/* ADC SWSTART mask */
-#define CR2_SWSTART_Set             ((uint32_t)0x00400000)
-
 /* ADC EXTTRIG mask */
 #define CR2_EXTTRIG_Set             ((uint32_t)0x00100000)
 #define CR2_EXTTRIG_Reset           ((uint32_t)0xFFEFFFFF)
@@ -100,15 +91,6 @@
 #define CR2_JEXTTRIG_Set            ((uint32_t)0x00008000)
 #define CR2_JEXTTRIG_Reset          ((uint32_t)0xFFFF7FFF)
 
-/* ADC JSWSTART mask */
-#define CR2_JSWSTART_Set            ((uint32_t)0x00200000)
-
-/* ADC injected software start mask */
-#define CR2_JEXTTRIG_JSWSTART_Set   ((uint32_t)0x00208000)
-#define CR2_JEXTTRIG_JSWSTART_Reset ((uint32_t)0xFFDF7FFF)
-
-/* ADC TSPD mask */
-#define CR2_TSVREFE_Set             ((uint32_t)0x00800000)
 #define CR2_TSVREFE_Reset           ((uint32_t)0xFF7FFFFF)
 
 /* CR2 register Mask */
