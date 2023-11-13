@@ -94,13 +94,7 @@ typedef struct
 #define ADC_Mode_Independent                       ((uint32_t)0x00000000)
 #define ADC_Mode_RegInjecSimult                    ((uint32_t)0x00010000)
 #define ADC_Mode_RegSimult_AlterTrig               ((uint32_t)0x00020000)
-#define ADC_Mode_InjecSimult_FastInterl            ((uint32_t)0x00030000)
-#define ADC_Mode_InjecSimult_SlowInterl            ((uint32_t)0x00040000)
-#define ADC_Mode_InjecSimult                       ((uint32_t)0x00050000)
-#define ADC_Mode_RegSimult                         ((uint32_t)0x00060000)
-#define ADC_Mode_FastInterl                        ((uint32_t)0x00070000)
-#define ADC_Mode_SlowInterl                        ((uint32_t)0x00080000)
-#define ADC_Mode_AlterTrig                         ((uint32_t)0x00090000)
+
 
 #define IS_ADC_MODE(MODE) (((MODE) == ADC_Mode_Independent) || \
                            ((MODE) == ADC_Mode_RegInjecSimult) || \
